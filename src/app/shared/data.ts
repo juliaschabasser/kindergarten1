@@ -1,29 +1,34 @@
 export var kindergardens = [
     {
+        id: 0,
         name: "Waldorfkindergarten im Zentrum Wiens",
         address: "Oleandergasse 21, 1220 Wien", 
         betreiber: "MA 10 - Wiener Kindergärten",
         typ: "privat"
     },
     {
+        id: 1,
         name: "Kindergarten der Karl Schubert Schule für seelenpflegebedürftige Kinder und Jugendliche in Wien",
         address: "Kanitzgasse 1-3, 1230 Wien", 
         betreiber: "Verein Karl Schubertschule für Seelenpflege- bedürftige Kinder und Jugendliche in Wien",
         typ: "privat"
     },
     {
+        id: 2,
         name: "Kindergarten der Stadt Wien",
         address: "Audorfgasse 20, 1210 Wien", 
         betreiber: "MA 10 - Wiener Kindergärten",
         typ: "öffentlich"
     },
     {
+        id: 3,
         name: "Kindergarten der Stadt Wien",
         address: "Moßbachergasse 20-24, 1140 Wien", 
         betreiber: "MA 10 - Wiener Kindergärten",
         typ: "öffentlich"
     },
     {
+        id: 4,
         name: "Montessori Kinderhaus Wien 1",
         address: "Nußdorferstraße 6, 1090 Wien", 
         betreiber: "Montessori Kinderhaus Wien",
@@ -33,12 +38,11 @@ export var kindergardens = [
 
 export var children = [
     {
+        id: '9b1deb4d-3b7d-4bad-9bpp-2b0d7b3dcb6d',
         name: "Nicole Fitsch",
-        age: 3,
         birthDate: "2021-07-04",
-        nationality: "Austria",
-        kindergartengruppe: "Die Schnecken",
         kindergarten: {
+            id: 0,
             name: "Waldorfkindergarten im Zentrum Wiens",
             address: "Oleandergasse 21, 1220 Wien", 
             betreiber: "MA 10 - Wiener Kindergärten",
@@ -46,12 +50,11 @@ export var children = [
         }
     },
     {
+        id: '9b1deb4d-897d-4bad-9bdd-2b0d7b3dcb6d',
         name: "Jasmin Schmied",
-        age: 2,
         birthDate: "2020-09-04",
-        nationality: "Austria",
-        kindergartengruppe: "Die Muskeltiere",
         kindergarten: {
+            id: 0,
             name: "Waldorfkindergarten im Zentrum Wiens",
             address: "Oleandergasse 21, 1220 Wien", 
             betreiber: "MA 10 - Wiener Kindergärten",
@@ -59,12 +62,11 @@ export var children = [
         },
     },
     {
+        id: '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d',
         name: "Melanie Hollunder",
-        age: 4,
         birthDate: "2020-07-04",
-        nationality: "Austria",
-        kindergartengruppe: "Regenbogentänzer",
         kindergarten: {
+            id: 1,
             name: "Kindergarten der Karl Schubert Schule für seelenpflegebedürftige Kinder und Jugendliche in Wien",
             address: "Kanitzgasse 1-3, 1230 Wien", 
             betreiber: "Verein Karl Schubertschule für Seelenpflege- bedürftige Kinder und Jugendliche in Wien",
@@ -72,12 +74,11 @@ export var children = [
         }
     },
     {
+        id: '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed',
         name: "VIktor Sachs",
-        age: 1,
         birthDate: "2022-06-04",
-        nationality: "Austria",
-        kindergartengruppe: "Die Tierbabys",
         kindergarten: {
+            id: 2,
             name: "Kindergarten der Stadt Wien",
             address: "Audorfgasse 20, 1210 Wien", 
             betreiber: "MA 10 - Wiener Kindergärten",
@@ -85,12 +86,11 @@ export var children = [
         }
     },
     {
+        id: '9b1debop-3b7d-4bad-9bdd-2b0d7b3dcb6d',
         name: "Emily Nilson",
-        age: 3,
-        birthDate: "2021-09-04",
-        nationality: "Germany",
-        kindergartengruppe: "Die nassen Hosen",
+        birthDate: "2019-01-04",
         kindergarten: {
+            id: 3,
             name: "Kindergarten der Stadt Wien",
             address: "Moßbachergasse 20-24, 1140 Wien", 
             betreiber: "MA 10 - Wiener Kindergärten",
