@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {kindergardens, kinder} from './../../shared/data'
+import {kindergardens, children} from './../../shared/data'
 
 @Component({
   selector: 'app-data',
@@ -36,7 +36,7 @@ export class DataComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(kindergardens);
-    console.log(kinder);
+    console.log(children);
   }
 
 
